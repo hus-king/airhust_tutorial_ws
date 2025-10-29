@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="template" type="template" name="" output="screen">
+    <rosparam command="load" file="$(find template)/config/template.yaml" />
+  </node>
+</launch>
