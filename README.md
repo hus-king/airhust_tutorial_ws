@@ -18,7 +18,7 @@ catkin_make
 ```bash
 cd ~/airhust_tutorial_ws/src/sim_task
 mkdir -p ~/.gazebo/models
-mv models ~/.gazebo/models
+mv models/* ~/.gazebo/models
 ```
 
 ## 三、打开地图并起飞
