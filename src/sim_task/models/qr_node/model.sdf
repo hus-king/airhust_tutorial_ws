@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version="1.4">
+   <model name="qr_node">
+      <static>true</static>
+      <link name="link">
+         <collision name="collision">
+            <geometry>
+               <plane>
+                  <normal>0 0 1</normal>
+                  <size>0.8 0.8</size>
+               </plane>
+            </geometry>
+            <surface>
+               <friction>
+                  <ode>
+                     <mu>100</mu>
+                     <mu2>50</mu2>
+                  </ode>
+               </friction>
+            </surface>
+         </collision>
+         <visual name="visual">
+            <cast_shadows>false</cast_shadows>
+            <geometry>
+               <plane>
+                  <normal>0 0 1</normal>
+                  <size>0.8 0.8</size>
+               </plane>
+            </geometry>
+            <material>
+               <script>
+                  <uri>model://qr_node/materials/scripts</uri>
+                  <uri>model://qr_node/materials/textures/</uri>
+                  <name>qr_node/qr_node</name>
+               </script>
+            </material>
+         </visual>
+      </link>
+   </model>
+</sdf>
+

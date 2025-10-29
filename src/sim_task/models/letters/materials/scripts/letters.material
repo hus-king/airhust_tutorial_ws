@@ -1,0 +1,467 @@
+material letters/A
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture A.png
+            }
+        }
+    }
+}
+
+material letters/B
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture B.png
+            }
+        }
+    }
+}
+
+material letters/C
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture C.png
+            }
+        }
+    }
+}
+
+material letters/D
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture D.png
+            }
+        }
+    }
+}
+
+material letters/E
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture E.png
+            }
+        }
+    }
+}
+
+material letters/F
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture F.png
+            }
+        }
+    }
+}
+
+material letters/G
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture G.png
+            }
+        }
+    }
+}
+
+material letters/H
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture H.png
+            }
+        }
+    }
+}
+
+material letters/I
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture I.png
+            }
+        }
+    }
+}
+
+material letters/J
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture J.png
+            }
+        }
+    }
+}
+
+material letters/K
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture K.png
+            }
+        }
+    }
+}
+
+material letters/L
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture L.png
+            }
+        }
+    }
+}
+
+material letters/M
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture M.png
+            }
+        }
+    }
+}
+
+material letters/N
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture N.png
+            }
+        }
+    }
+}
+
+material letters/O
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture O.png
+            }
+        }
+    }
+}
+
+material letters/P
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture P.png
+            }
+        }
+    }
+}
+
+material letters/Q
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture Q.png
+            }
+        }
+    }
+}
+
+material letters/R
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture R.png
+            }
+        }
+    }
+}
+
+material letters/S
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture S.png
+            }
+        }
+    }
+}
+
+material letters/T
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture T.png
+            }
+        }
+    }
+}
+
+material letters/U
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture U.png
+            }
+        }
+    }
+}
+
+material letters/V
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture V.png
+            }
+        }
+    }
+}
+
+material letters/W
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture W.png
+            }
+        }
+    }
+}
+
+material letters/X
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture X.png
+            }
+        }
+    }
+}
+
+material letters/Y
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture Y.png
+            }
+        }
+    }
+}
+
+material letters/Z
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1 1.000000
+            diffuse 1 1 1 1.000000
+            specular 0.03 0.03 0.03 1.000000
+ 
+            texture_unit
+            {
+                texture Z.png
+            }
+        }
+    }
+}

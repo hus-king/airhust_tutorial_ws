@@ -1,0 +1,122 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+    <model name='gate'>
+        <static>1</static>
+        <pose>0 0 0 0 0 0</pose>
+        <link name='link'>
+
+            <!-- ========== Left Leg ========== -->
+            <visual name='leg_left_visual'>
+            <pose>-0.525 0 1.0 0 0 0</pose>
+            <geometry>
+                <box>
+                <size>0.1 0.1 2.0</size>
+                </box>
+            </geometry>
+            <material>
+                <script>
+                <name>Gazebo/Grey</name>
+                <uri>file://media/materials/scripts/gazebo.material</uri>
+                </script>
+            </material>
+            </visual>
+            <collision name='leg_left_collision'>
+            <pose>-0.525 0 1.0 0 0 0</pose>
+            <geometry>
+                <box>
+                <size>0.1 0.1 2.0</size>
+                </box>
+            </geometry>
+            </collision>
+
+            <!-- ========== Right Leg ========== -->
+            <visual name='leg_right_visual'>
+            <pose>0.525 0 1.0 0 0 0</pose>
+            <geometry>
+                <box>
+                <size>0.1 0.1 2.0</size>
+                </box>
+            </geometry>
+            <material>
+                <script>
+                <name>Gazebo/Grey</name>
+                <uri>file://media/materials/scripts/gazebo.material</uri>
+                </script>
+            </material>
+            </visual>
+            <collision name='leg_right_collision'>
+            <pose>0.525 0 1.0 0 0 0</pose>
+            <geometry>
+                <box>
+                <size>0.1 0.1 2.0</size>
+                </box>
+            </geometry>
+            </collision>
+
+            <!-- ========== Top Beam ========== -->
+            <visual name='top_beam_visual'>
+            <pose>0 0 1.95 0 0 0</pose>
+            <geometry>
+                <box>
+                <size>1.05 0.1 0.1</size> <!-- spans from x=-0.525 to x=+0.525 -->
+                </box>
+            </geometry>
+            <material>
+                <script>
+                <name>Gazebo/Grey</name>
+                <uri>file://media/materials/scripts/gazebo.material</uri>
+                </script>
+            </material>
+            </visual>
+            <collision name='top_beam_collision'>
+            <pose>0 0 1.95 0 0 0</pose>
+            <geometry>
+                <box>
+                <size>1.05 0.1 0.1</size>
+                </box>
+            </geometry>
+            </collision>
+
+            <!-- ========== Middle Beam ========== -->
+            <visual name='middle_beam_visual'>
+            <pose>0 0 1.0 0 0 0</pose>
+            <geometry>
+                <box>
+                <size>1.05 0.1 0.1</size>
+                </box>
+            </geometry>
+            <material>
+                <script>
+                <name>Gazebo/Grey</name>
+                <uri>file://media/materials/scripts/gazebo.material</uri>
+                </script>
+            </material>
+            </visual>
+            <collision name='middle_beam_collision'>
+            <pose>0 0 1.0 0 0 0</pose>
+            <geometry>
+                <box>
+                <size>1.05 0.1 0.1</size>
+                </box>
+            </geometry>
+            </collision>
+
+            <!-- Inertial (optional for static models, but included for completeness) -->
+            <inertial>
+            <mass>20.0</mass>
+            <inertia>
+                <ixx>2.0</ixx>
+                <ixy>0</ixy>
+                <ixz>0</ixz>
+                <iyy>2.0</iyy>
+                <iyz>0</iyz>
+                <izz>2.0</izz>
+            </inertia>
+            </inertial>
+
+            <self_collide>0</self_collide>
+            <enable_wind>0</enable_wind>
+            <kinematic>0</kinematic>
+        </link>
+    </model>
+</sdf>
